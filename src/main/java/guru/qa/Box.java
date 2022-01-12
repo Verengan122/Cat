@@ -18,5 +18,4 @@ public class Box {
     public void printBoxStatus() {
         System.out.println("Состояние коробки: " + getBoxStatus());
     }
-
 }

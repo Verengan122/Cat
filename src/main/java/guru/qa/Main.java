@@ -7,8 +7,7 @@ public class Main {
             Box box = new Box();
             Cat cat = new Cat(box.getBoxStatus());
             box.printBoxStatus();
-            cat.printKatStatus();
+            cat.printСatStatus();
         }
-
     }
 }

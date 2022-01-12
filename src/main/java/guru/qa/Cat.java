@@ -10,7 +10,7 @@ public class Cat {
         this.boxStatus = boxStatus;
     }
 
-    public void printKatStatus() {
+    public void printСatStatus() {
         if (boxStatus.equals("Открыта")) {
             Random random = new Random();
             String condition = statusInBox[random.nextInt(2)];
